@@ -58,5 +58,5 @@
         - name: apache_started
           service:
             name: httpd
-            start: restarted
+            state: started
           
