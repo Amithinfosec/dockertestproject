@@ -1,0 +1,10 @@
+---
+  -
+    hosts: worker
+
+    tasks:
+      - name: Install EPel 
+        yum:
+          name: epel-release
+          update_cache: yes
+          state: latest
